@@ -224,12 +224,3 @@ Feel free to use, modify, and share.
 * meArm community
 
 ---
-
-If you want, I can also:
-
-* Rewrite this README in a **more academic / paper style**
-* Add **diagrams or system architecture images**
-* Create a **demo GIF section**
-* Polish it for **GitHub Stars & visibility**
-
-Just tell me.
