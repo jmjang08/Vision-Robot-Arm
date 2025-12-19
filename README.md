@@ -28,7 +28,7 @@ CameraWebServer (image stream)
      ↓
 a_*.py  → Calibration & color tuning
      ↓
-(b_*.py → Object detection & coordinate conversion) # for debugging
+(b_color_detect_and_IK.py → Object detection & coordinate conversion)
      ↓
 final_com_no_PID.py → motion planning
      /
@@ -63,7 +63,7 @@ meArm Robot Arm
 
 ## 🚀 Setup & Usage
 
-### 1️⃣ ESP32 Camera Setup
+### 1. ESP32 Camera Setup
 
 * Flash **CameraWebServer** example to the ESP32
 * Confirm live image access via browser
@@ -78,7 +78,7 @@ http://192.168.x.xxx
 
 ---
 
-### 2️⃣ Camera Calibration (Homography)
+### 2. Camera Calibration (Homography)
 
 Run:
 
@@ -98,13 +98,12 @@ This maps camera pixels → real-world coordinates (mm).
 
 ---
 
-### 3️⃣ Color Tuning (HSV)
+### 3. Color Tuning (HSV)
 
 Tune HSV values for your environment:
 
 ```bash
 python a_hsv_tuner.py
-python a_hsv_tuner_black.py
 ```
 
 * Adjust trackbars until the object is **white** and the background **black**
@@ -112,7 +111,7 @@ python a_hsv_tuner_black.py
 
 ---
 
-### 4️⃣ Detection & IK Test (Optional)
+### 4. Detection & IK Test (Optional)
 
 ```bash
 python b_color_detect_and_IK.py
@@ -126,7 +125,7 @@ Useful for debugging geometry before motion.
 
 ---
 
-### 5️⃣ Arduino Firmware
+### 5. Arduino Firmware
 
 * Open `final_arm.ino` in Arduino IDE
 * Upload to Arduino
@@ -134,7 +133,7 @@ Useful for debugging geometry before motion.
 
 ---
 
-### 6️⃣ Run the Full Pick & Place System
+### 6. Run the Full Pick & Place System
 
 #### Without smooth control:
 
