@@ -46,7 +46,7 @@ meArm Robot Arm
 ## ⚙️ Hardware Requirements
 
 * meArm-style 4-DOF robotic arm with joystick<br>
-  <img src="./img/final_robotarm.jpg" width="300">
+  <img src="./img/final_robotarm.JPG" width="300">
 * Custom gripper (hardware folder) <br>
   > *Print all .stl files inside hardware folder. Files labeled x2 require two copies.<br>
   <img src="./img/custom_gripper.png" width="300">
