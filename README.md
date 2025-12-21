@@ -45,8 +45,8 @@ meArm Robot Arm
 
 ## ⚙️ Hardware Requirements
 
-* meArm-style 4-DOF robotic arm + custom gripper(final_cads) <br>
-  custom gripper: Print all .stl files inside final_cads. Files labeled x2 require two copies.
+* meArm-style 4-DOF robotic arm + custom gripper(hardware folder) <br>
+  custom gripper: Print all .stl files inside hardware folder. Files labeled x2 require two copies.
 * Arduino UNO
 * SG90 or MG90 *4 (Base, Shoulder, Elbow, Claw)
 * ESP32-CAM AI thinker
@@ -66,7 +66,8 @@ meArm Robot Arm
 
 ### 1. ESP32 Camera Setup
 
-* Flash **CameraWebServer** example to the ESP32-CAM
+* Flash **CameraWebServer** example to the ESP32-CAM<br>
+Enter the Wi-Fi name and password into `CameraWebServer.ino`.
 * Confirm live image access via browser
 * ESP32-CAM should be able to see robot arm and workspace entirely<br>
 (I used two sheets of white A4 paper stacked together as my workspace.)<br>
