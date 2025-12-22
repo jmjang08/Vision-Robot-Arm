@@ -32,7 +32,7 @@ a_*.py  → Calibration & color tuning
   ↓
 (b_color_detect_and_IK.py → Object detection & coordinate conversion)
   ↓
-final_com_*.py → (IK +) motion planning
+final_com_*.py → IK + motion planning (+ P-control)
   ↓
 Serial (USB)
   ↓
