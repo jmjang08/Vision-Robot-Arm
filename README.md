@@ -4,7 +4,8 @@ Project for a university graduation thesis in 2025.<br>
 This project implements a **vision-based pick & place system** for a **meArm-style robotic arm** using an **ESP32 camera**, **OpenCV**, **homography calibration**, and **inverse kinematics**.
 Detected objects are converted from camera pixel coordinates into real-world coordinates, then into joint angles, and finally sent to an Arduino to physically move the robot arm.
 
----
+## 🎬 Demo Video
+[![Robot Arm Demo](https://img.youtube.com/vi/9luguXxBqPA/0.jpg)](https://www.youtube.com/watch?v=9luguXxBqPA)
 
 ## ✨ Features
 
