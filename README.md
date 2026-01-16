@@ -6,6 +6,7 @@ Detected objects are converted from camera pixel coordinates into real-world coo
 
 ## 🎬 Demo Video
 [![Robot Arm Demo](https://img.youtube.com/vi/9luguXxBqPA/0.jpg)](https://www.youtube.com/watch?v=9luguXxBqPA)
+> 💡 **Click the image above to watch the full demonstration video on YouTube.**
 
 ## ✨ Features
 
