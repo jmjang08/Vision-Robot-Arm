@@ -1,4 +1,4 @@
-# Vision-Based Pick & Place Robot Arm
+# AxisEye: Vision-Based Pick & Place Robot Arm
 
 Project for a university graduation thesis in 2025.<br>
 This project implements a **vision-based pick & place system** for a **meArm-style robotic arm** using an **ESP32 camera**, **OpenCV**, **homography calibration**, and **inverse kinematics**.
