@@ -87,7 +87,7 @@ http://192.168.x.xxx
 ---
 
 ### 2. Camera Calibration (Homography)
-
+First, measure your workspace in mm then fill
 Run:
 
 ```bash
