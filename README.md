@@ -87,8 +87,9 @@ http://192.168.x.xxx
 ---
 
 ### 2. Camera Calibration (Homography)
-First, measure your workspace in mm then fill
-Run:
+First, measure your workspace in mm then fill real_pts
+
+And Run:
 
 ```bash
 python a_calibrate_homography.py
